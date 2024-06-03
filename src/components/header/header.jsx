@@ -17,7 +17,7 @@ export default function Header({ data }) {
     const [viewSearch, setViewSearch] = useState(false)
     const [search, setSearch] = useState('')
     const toggleClass = show ? 'resp_nav' : ''
-    const toggleSearch = viewSearch ? 'view-serach' : ''
+    const toggleSearch = viewSearch ? 'view-search' : ''
 
 
     const navigate = useNavigate()
@@ -49,7 +49,7 @@ export default function Header({ data }) {
                 <button className='burger-btn close-btn' onClick={() => setShow(!show)}>
                     <FaTimes size={20} />
                 </button>
-                <div className='card-bn-wrapper'>
+                <div className='card-btn-wrapper'>
                     <div className='search-block'>
                         <input onChange={(e) => setSearch(e.target.value)} value={search} className={`input-search ${toggleSearch}`} type="search" placeholder='write your favorite' />
                         {

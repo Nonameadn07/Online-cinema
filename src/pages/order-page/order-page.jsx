@@ -16,8 +16,8 @@ export default function OrderPage() {
             <div className='order-page_left'>
                 {items.map(film => <OrderItem film={film} /> )}
             </div>
-            <div className='order-page__right'>
-                <span>{items.lendth} товаров на сумму {calcTotalPrice(items)} сом</span>
+            <div className='order-page_right'>
+                <span>{items.length} товаров на сумму {calcTotalPrice(items)} сом</span>
                 <button className='buy-btn'>Купить</button>
             </div>
         </div>

@@ -87,13 +87,14 @@
 
 .search-result{
     display: flex;
+
 }
 
 .search-content{
     margin-left: 5px;
 }
 
-.card-btn_wrapper{
+.card-btn-wrapper{
     display: flex;
     align-items: center;
 }
