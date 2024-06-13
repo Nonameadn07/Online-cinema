@@ -1,4 +1,4 @@
-import cover1 from './fim-covers//infinityVar.jpg'
+import cover1 from './fim-covers/infinityVar.jpg'
 import coverSmoll1 from './fim-covers/infinityVarSmoll.jpg'
 import cover2 from './fim-covers/avatar.jpg'
 import coverSmoll2 from './fim-covers/avatarSmoll.jpg'
